@@ -62,14 +62,14 @@ public class Calculator {
         	if (button.equals(add)) {
         		//System.out.println("you pressed a button!");       
                 
-                String text1 = input1.getText();
-                String text2 = input2.getText();
-                float num1 = Float.parseFloat(text1);
-                float num2 = Float.parseFloat(text2);
-                
-                float result = num1 + num2;
-                
-                input3.setText(result+"");
+                        String text1 = input1.getText();
+                        String text2 = input2.getText();
+                        float num1 = Float.parseFloat(text1);
+                        float num2 = Float.parseFloat(text2);
+
+                        float result = num1 + num2;
+
+                        input3.setText(result+"");
                 	
         	}
         	
@@ -79,12 +79,12 @@ public class Calculator {
         		
         		String text1 = input1.getText();
         		String text2 = input2.getText();
-                float num1 = Float.parseFloat(text1);
-                float num2 = Float.parseFloat(text2);
-        		
-                float result = num1 * num2;
-                
-                input3.setText(result + "");
+                        float num1 = Float.parseFloat(text1);
+                        float num2 = Float.parseFloat(text2);
+
+                        float result = num1 * num2;
+
+                        input3.setText(result + "");
         		
         	}
         	if (button.equals(div)) {
@@ -93,12 +93,12 @@ public class Calculator {
         		
         		String text1 = input1.getText();
         		String text2 = input2.getText();
-                float num1 = Float.parseFloat(text1);
-                float num2 = Float.parseFloat(text2);
-        		
-                float result = num1 / num2;
-                
-                input3.setText(result + "");
+                        float num1 = Float.parseFloat(text1);
+                        float num2 = Float.parseFloat(text2);
+
+                        float result = num1 / num2;
+
+                        input3.setText(result + "");
         		
         	}
         	if (button.equals(sub)) {
@@ -107,12 +107,12 @@ public class Calculator {
         		
         		String text1 = input1.getText();
         		String text2 = input2.getText();
-                float num1 = Float.parseFloat(text1);
-                float num2 = Float.parseFloat(text2);
-        		
-                float result = num1 - num2;
-                
-                input3.setText(result + "");
+                        float num1 = Float.parseFloat(text1);
+                        float num2 = Float.parseFloat(text2);
+
+                        float result = num1 - num2;
+
+                        input3.setText(result + "");
         		
         	}
         
